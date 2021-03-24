@@ -1,11 +1,67 @@
+.image1 {
+    width: 945px;
+    height: auto;
+}
+.image2 {
+    width: 600px;
+    height: auto;
+    
+}
 .navbar {
-    overflow: hidden;
+    display: flex; 
     background-color: rgb(255, 255, 255);
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-
     font-size: larger;
+    border: 10px solid yellow;
+}
+.nav  {
+    flex: 1;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+.nav1 {
+    flex:0.15;
+}
+.nav2 {
+    flex:0.15;
+}
+.nav3 {
+    flex:0.40;
+}
+.nav4 {
+    flex:1;
+}
+.nav5 {
+    flex:none;
+    background-color: #2a63ff; 
+    border: 3px solid rgb(50, 104, 145);
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.nav6 {
+    flex:none;
+    background-color: #2a63ff; 
+    border: 3px solid rgb(50, 104, 145);
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-right: 20px;
 }
 .cursivetitle {
     font-family: "Old English (Let)";
@@ -22,9 +78,19 @@
             }
 .containerparent {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
     border: 10px solid goldenrod;
 }
+.middle-section {
+    width: 600px;
+    border: 10px solid rgb(20, 190, 20);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+
 .box  {
     width: 225px;
 
@@ -33,4 +99,42 @@
     max-width: 225px;
     
   height: 100px;
+}
+.img1 {
+    width: 945px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: gray;
+}
+.img2 {
+    width: 600px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: gray;
+}
+.big-section  {
+    border: 10px solid rgb(197, 15, 136);
+    width: 945px;
+}
+.aside-text  {
+    margin: 0 auto;
+	padding: 10px;
+    font-size: 16px;
+}
+.aside-img  {
+    float: left;
+    width: 75px;
+    height: 75px;
+}
+.aside-section {
+   
+    width: 210px;
+    display: flex;
+   justify-content: baseline;
+}  
+.assidepos {
+    position: absolute;
+    right: 50px;
+    top: 1800px;
+    border: 10px solid rgb(197, 15, 15);
 }
