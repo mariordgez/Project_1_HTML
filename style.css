@@ -7,6 +7,13 @@
     height: auto;
     
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+  }
 .navbar {
     display: flex; 
     background-color: rgb(255, 255, 255);
@@ -14,7 +21,8 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     font-size: larger;
-    border: 10px solid transparent;
+    border-bottom: 1px solid black;
+    justify-items: baseline;
 }
 .nav  {
     flex: 1;
@@ -28,27 +36,13 @@
     flex:0.15;
 }
 .nav3 {
-    flex:0.40;
+    flex:0.60;
 }
 .nav4 {
     flex:1;
 }
-.nav5 {
-    flex:none;
-    background-color: #2a63ff; 
-    border: 3px solid rgb(50, 104, 145);
-    color: white;
-    padding: 15px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11px;
-    line-height: 11px;
-    font-weight: 700;
-    border-radius: 4px;
-    margin-right: 10px;
-}
-.nav6 {
+
+.btn {
     flex:none;
     background-color: #2a63ff; 
     border: 3px solid rgb(50, 104, 145);
@@ -62,11 +56,13 @@
     font-weight: 700;
     border-radius: 4px;
     margin-right: 20px;
+    margin-bottom: 5px;
 }
 .cursivetitle {
     font-family: "Old English (Let)";
+    font-weight: bold;
+    font-size: 24px;
 }
-@import url(//db.onlinewebfonts.com/c/809e4b078034095ff3d1fb1097aadcb4?family=Old+English+(Let));
 @font-face {font-family: "Old English (Let)"; src: url("//db.onlinewebfonts.com/t/809e4b078034095ff3d1fb1097aadcb4.eot"); src: url("//db.onlinewebfonts.com/t/809e4b078034095ff3d1fb1097aadcb4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/809e4b078034095ff3d1fb1097aadcb4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/809e4b078034095ff3d1fb1097aadcb4.woff") format("woff"), url("//db.onlinewebfonts.com/t/809e4b078034095ff3d1fb1097aadcb4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/809e4b078034095ff3d1fb1097aadcb4.svg#Old English (Let)") format("svg"); } 
 .container  {
     display: flex;
