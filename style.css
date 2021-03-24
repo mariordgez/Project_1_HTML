@@ -14,12 +14,12 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     font-size: larger;
-    border: 10px solid yellow;
+    border: 10px solid transparent;
 }
 .nav  {
     flex: 1;
     flex-wrap: wrap;
-    border: 5px solid black;
+    border: 5px solid transparent;
 }
 .nav1 {
     flex:0.15;
@@ -73,7 +73,7 @@
     flex-wrap: wrap;
     height: 576px;
     width: 945px;
-    border: 10px solid mistyrose;
+    border: 10px solid transparent;
     justify-content: space-between;
             }
 .containerparent {
@@ -81,11 +81,11 @@
     flex-direction: column;
     align-items: center;
    
-    border: 10px solid goldenrod;
+    border: 10px solid transparent;
 }
 .middle-section {
     width: 600px;
-    border: 10px solid rgb(20, 190, 20);
+    border: 10px solid transparent;
     font-size: 1.25rem;
     line-height: 1.875rem;
 }
@@ -113,7 +113,7 @@
     color: gray;
 }
 .big-section  {
-    border: 10px solid rgb(197, 15, 136);
+    border: 10px solid transparent;
     width: 945px;
 }
 .aside-text  {
@@ -136,5 +136,8 @@
     position: absolute;
     right: 50px;
     top: 1800px;
-    border: 10px solid rgb(197, 15, 15);
-}
+    border: 10px solid transparent;}
+.header {
+    margin: 30px;
+    line-height: 1.875rem;
+}    
