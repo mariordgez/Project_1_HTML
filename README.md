@@ -16,7 +16,7 @@ The project has a nav-bar with its icons (No javascript was used in the project)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mariordgez.github.io/Project_1_HTML/)
 
 
 ## Authors
