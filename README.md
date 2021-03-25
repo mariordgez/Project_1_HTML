@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Positioning and Floating Elements
 
-> One paragraph statement about the project.
+> The goal of this project is to build a web page that resembles a New Yor Times article (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) using positioning tools like flex, grid and float. 
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+The project has a nav-bar with its icons (No javascript was used in the project), it also has embedded images and video to go along the pararaphs and different kinds of fonts used in it.
 
 ## Built With
 
