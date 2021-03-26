@@ -252,3 +252,95 @@ h2 {
   font-size: 0.9375rem;
   font-weight: 700;
 }
+
+.footercontainer {
+  width: 1210px;
+  height: auto;
+  display: flex;
+  padding-top: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.ftrcontainer1 {
+  width: 875px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin-right: 10px;
+}
+
+.ftrcontainer1_1 {
+  font-weight: 900;
+  width: 852px;
+  border-top: 1px solid black;
+  padding-top: 20px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ftrcontainer1_2 {
+  margin-right: 50px;
+  margin-left: 5px;
+}
+
+.ftrcontainer1_3 {
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+.ftrcontainer1_4 {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.ftrcontainer2 {
+  width: 315px;
+}
+
+.ftrcontainer2_1 {
+  border-top: 1px solid black;
+  width: 315px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top {
+  border-top: 4px double lightgray;
+}
+
+.mostpopular {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-family: 'Times New Roman', Times, serif;
+  border-top: 1px solid lightgray;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-separation {
+  width: 1350px;
+  padding-bottom: 30px;
+  padding-top: 12px;
+  background-color: rgb(247, 247, 247);
+  border-bottom: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+  margin-top: 37px;
+}
+
+.footer2 {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  width: 1000px;
+  text-align: end;
+  margin-top: 5px;
+}
+
+.blue {
+  color: rgb(86, 123, 149);
+}
