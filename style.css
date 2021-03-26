@@ -64,7 +64,7 @@ a:hover {
   background-color: #567b95;
   border: 1px solid #326891;
   color: white;
-  padding: 11px 12px 8px;
+  padding: 5px 5px 5px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -75,7 +75,7 @@ a:hover {
   margin-right: 20px;
   margin-bottom: 5px;
   margin-top: 5px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 0.05rem;
   height: 28px;
 }
@@ -87,6 +87,33 @@ a:hover {
   width: 945px;
   border: 10px solid transparent;
   justify-content: space-between;
+}
+
+.smallcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  align-items: center;
+}
+
+.sc1 {
+  flex: 4;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: black;
+}
+
+.bold {
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cursive {
+  font-style: italic;
+}
+
+.sc2 {
+  flex: 1;
 }
 
 .containerparent {
@@ -101,6 +128,7 @@ a:hover {
   border: 10px solid transparent;
   font-size: 1.25rem;
   line-height: 1.875rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .box {
@@ -114,9 +142,19 @@ a:hover {
 
 .img1 {
   width: 945px;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.small {
+  font-size: 0.8125rem;
   line-height: 1.125rem;
-  color: gray;
+}
+
+.gray {
+  color: #888;
 }
 
 .img2 {
@@ -167,4 +205,35 @@ iframe {
   height: 315px;
   width: 560px;
   border: none;
+}
+
+.toolbar {
+  width: 630px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.header3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  border-bottom: 1px solid lightgray;
+}
+
+.signup {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 6px 12px 4px;
+  font-size: 0.9375rem;
+  font-weight: 700;
 }
