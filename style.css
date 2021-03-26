@@ -80,6 +80,15 @@ a:hover {
   height: 28px;
 }
 
+.readCommentsBtn {
+  width: 330px;
+  margin-right: 50px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
