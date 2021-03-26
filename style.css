@@ -131,6 +131,11 @@ a:hover {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.border-bottom {
+  width: 80px;
+  border-bottom: 1px solid black;
+}
+
 .box {
   width: 225px;
 }
@@ -159,9 +164,10 @@ a:hover {
 
 .img2 {
   width: 600px;
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  color: gray;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .big-section {
