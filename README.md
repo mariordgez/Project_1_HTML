@@ -25,7 +25,7 @@ The project has a nav-bar with its icons (No javascript was used in the project)
 
 - GitHub: [@mariordgez](https://github.com/mariordgez)
 - Twitter: [@MarioRo75396624](https://twitter.com/MarioRo75396624)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/mario-alberto-rodriguez-cota-a2860a205)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mario-alberto-rodriguez-cota-a2860a205)
 
 
 
