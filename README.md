@@ -2,7 +2,7 @@
 
 # Positioning and Floating Elements
 
-> The goal of this project is to build a web page that resembles a New Yor Times article (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) using positioning tools like flex, grid and float. 
+The goal of this project is to build a web page that resembles a [New York Times article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) using positioning tools like `flex`, `grid `and `float`. 
 
 ![screenshot](https://raw.githubusercontent.com/mariordgez/Project_1_HTML/project-1-microverse/images/screenshot.png)
 
