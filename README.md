@@ -42,4 +42,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/mariordgez/Project_1_HTML/blob/project-1-microverse/mit.md) licensed.
